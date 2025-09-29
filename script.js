@@ -7,4 +7,4 @@ function rotateText() {
   helloWorld.style.transform = `rotate(${rotation}deg)`;
 }
 
-setInterval(rotateText, 10);
+setInterval(rotateText, 20);
