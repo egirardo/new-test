@@ -3,7 +3,7 @@ const helloWorld = document.getElementById("helloWorld");
 let rotation = 0;
 
 function rotateText() {
-  rotation += 15;
+  rotation += 05;
   helloWorld.style.transform = `rotate(${rotation}deg)`;
 }
 
