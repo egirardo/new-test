@@ -3,8 +3,8 @@ const helloWorld = document.getElementById("helloWorld");
 let rotation = 0;
 
 function rotateText() {
-  rotation += 2;
+  rotation += 5;
   helloWorld.style.transform = `rotate(${rotation}deg)`;
 }
 
-setInterval(rotateText, 2);
+setInterval(rotateText, 10);
